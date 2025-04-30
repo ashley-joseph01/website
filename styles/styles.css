@@ -5,6 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
 
+@font-face {
+    font-family: 'departure-mono';
+    src: url(../fonts/DepartureMono-Regular.woff2);
+}
+
 /* ANIMATIONS & INDECATORS */
 
 a:hover {
@@ -21,7 +26,7 @@ a:hover {
    margin: 0px;
    color: black;
 
-  font-family: "Quantico", sans-serif;
+  font-family: 'departure-mono', sans-serif;
   font-weight: 400;
   font-style: normal;
     
@@ -121,7 +126,7 @@ footer {
         }
 
         .contact {
-            font-size: 40px;
+            font-size: 44px;
 
             font-family: "Jacquard 12 Charted", system-ui;
             font-weight: 400;
@@ -129,7 +134,7 @@ footer {
         }
 
         .action-call {
-            font-size: 20px;
+            font-size: 22px;
         }
 
         .email {
@@ -163,7 +168,7 @@ footer {
             gap: 10px;
             align-items: center;
             justify-content: flex-end;
-            font-size: 25px;
+            font-size: 22px;
         }
 
             .img {
@@ -171,7 +176,7 @@ footer {
             }
 
             .thanks {
-                font-size: 40px;
+                font-size: 44px;
                 font-family: "Jacquard 12 Charted", system-ui;
                 font-weight: 400;
                 font-style: normal;
@@ -213,6 +218,7 @@ footer {
     z-index: 1;
     top: -5px;
     right: 110%;
+    transform: translateY(-10px);
   }
   
   .tooltip .tooltiptext::after {
