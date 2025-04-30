@@ -1,0 +1,187 @@
+/* COLORS */
+
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+
+/* GENERAL */
+
+* {
+   box-sizing: border-box; 
+   padding: 0px;
+   margin: 0px;
+   color: black;
+
+  font-family: "Quantico", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* SPECIFICS */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    border: 2px solid rgb(209, 209, 209);
+}
+
+    nav {
+        
+    }
+        header nav ul {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        header nav li {
+            background-color: rgb(247, 247, 247);
+            padding: 4px;
+            font-size: 1em;
+        }
+
+        header a {
+            text-decoration: none;
+        }
+
+    .header-right {
+        padding: 4px;
+        font-size: 1em;
+        background-color: rgb(247, 247, 247);
+    }
+
+section {
+
+}
+
+
+
+footer {
+    margin-top: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    border: 2px solid rgb(209, 209, 209);
+}
+
+    .footer-left {
+        display: flex;
+            flex-direction: column;
+            gap: 15px;
+    }
+
+        .none {
+            list-style: none;
+        }
+
+        .contact-section {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            
+        }
+
+        .contact {
+            font-size: 40px;
+
+            font-family: "Jacquard 12 Charted", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .action-call {
+            font-size: 20px;
+        }
+
+        .email {
+            text-decoration: underline;
+        }
+
+        .signature {
+
+        }
+
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+
+    }
+
+        .footer-nav ul{
+            display: flex;
+            gap: 30px;
+            
+        }
+
+        .footer-nav li {
+            
+        }
+
+        .info {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: flex-end;
+            font-size: 25px;
+        }
+
+            .img {
+                font-size: 1.5em;
+            }
+
+            .thanks {
+                font-size: 40px;
+                font-family: "Jacquard 12 Charted", system-ui;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+        .links {
+            text-decoration: none;
+            font-size: 1.5em;
+            
+            
+        }
+
+        .links ul {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+
+
+/* MOBILE LAYOUT */
+
+@media(max-width: 768px){ 
+
+
+
+
+}
