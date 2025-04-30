@@ -5,6 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
 
+/* ANIMATIONS & INDECATORS */
+
+a:hover {
+    background-color: rgb(249, 163, 206);
+}
+
+
+
 /* GENERAL */
 
 * {
@@ -26,6 +34,15 @@ body {
 }
 
 /* SPECIFICS */
+
+#current {
+    background-color: rgb(255, 205, 230);
+}
+
+#current-alt {
+    color: hotpink;
+}
+
 
 .main {
     display: flex;
@@ -175,6 +192,42 @@ footer {
             justify-content: flex-end;
         }
 
+/* TOOLTIPS */
+/* CODE VIA: https://www.w3schools.com/css/css_tooltip.asp */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: hotpink;
+    color: rgb(255, 238, 246);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 110%;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent hotpink;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
 
 
 /* MOBILE LAYOUT */
