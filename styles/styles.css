@@ -392,6 +392,31 @@ footer {
 
 @media(max-width: 768px){ 
 
+    body {
+        width: 100vh;
+        height: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        font-size: 10px;
+
+        padding: 0px;
+        margin: 0px;
+    }
+
+    section.page-about {
+        display: flex;
+        flex-direction: column;
+       
+        flex-wrap: wrap;
+    }
 
 
 
