@@ -38,6 +38,13 @@ body {
     flex-direction: column;
 }
 
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+ }
+
 /* SPECIFICS */
 
 #current {
@@ -241,6 +248,7 @@ footer {
   .page-about {
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
     gap: 15px;
 
     padding: 15px;
@@ -248,32 +256,57 @@ footer {
   }
 
   .left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
     border: 2px solid rgb(209, 209, 209);
     text-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    
 
   } 
-    .pfp {
-
+    .pfp img{
+        padding-top: 15px;
+        border-radius: 50%;
     }
 
     .name {
-
+        padding-top: 5px;
+        /* padding-left: 15px; */
+        font-size: 25px;
     }
 
     .user-pronouns {
 
     }
 
+    .box {
+        display: flex;
+        justify-content: center;
+        border: 2px solid rgb(249, 163, 206);
+        background-color: rgb(255, 205, 230);
+        border-radius: 5px;
+        height: 30px;
+
+        padding: 2px;
+    }
+
+        .box a {
+            text-decoration: none;
+        }
+
     .disc {
 
     }
 
     .location {
-
+        
     }
 
     .time {
-
+        
     }
 
     .email {
@@ -284,12 +317,15 @@ footer {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    align-items: flex;
+    gap: 15px;
 
-    border: 2px solid rgb(209, 209, 209);;
+    
 
   }
 
     .read-me {
+        border: 2px solid rgb(209, 209, 209);
 
     }
 
@@ -306,11 +342,49 @@ footer {
     }
 
     .pinned {
-
+        border: 2px solid rgb(209, 209, 209);
     }
 
-    .github-heatmap {
+        .pinned-inner {
+            display: flex;
+        }
 
+        .pin {
+            border: 2px solid rgb(255, 205, 230);
+            border-radius: 15px;
+            margin: 15px;
+            padding: 15px;
+        }
+
+        .pin p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            padding-top: 10px;
+            
+        }
+
+        .pin a {
+            text-decoration: none;
+        }
+
+        .pin img {
+            height: 200px;
+            
+            
+        }
+
+    .github-heatmap {
+        border: 2px solid rgb(209, 209, 209);
+    }
+
+    .github-heatmap .section-title a {
+        text-decoration: none;
+    }
+
+    .github-heatmap img {
+        padding: 20px;
     }
 
 
