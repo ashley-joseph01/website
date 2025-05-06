@@ -373,6 +373,73 @@ footer {
 
     /* MY WORK PAGE */
 
+    .page-work {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid rgb(209, 209, 209);
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .toc {
+        display: flex;
+        justify-content: right;
+    }
+
+    .toc ul{
+        list-style: none;
+    }
+
+
+    .title {
+        padding: 15px;
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #portfolio {
+        display: flex;
+        gap: 15px;
+
+        /* border: 5px solid blue; */
+    }
+
+    #soon {
+        display: flex;
+        gap: 15px;
+
+        /* border: 5px solid red; */
+    }
+
+    .portfolio-work {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+    .work {
+        border: 2px solid rgb(249, 163, 206);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .work p {
+        text-align: center;
+    }
+
+    .work img {
+        height: 200px;
+
+        /* border: 2px solid rgb(255, 238, 246); */
+    }
 
 
 /* MOBILE LAYOUT */
