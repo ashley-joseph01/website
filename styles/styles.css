@@ -14,7 +14,26 @@
 
 a:hover {
     background-color: rgb(249, 163, 206);
+    
 }
+
+nav a:hover {
+    letter-spacing: 1.5px;
+}
+
+#current {
+    background-color: rgb(255, 205, 230);
+}
+
+#current-alt {
+    color: hotpink;
+}
+
+#title {
+    color: hotpink;
+    text-decoration: underline;
+}
+
 
 
 
@@ -47,15 +66,6 @@ img.emoji {
 
 
 /* SPECIFICS */
-
-#current {
-    background-color: rgb(255, 205, 230);
-}
-
-#current-alt {
-    color: hotpink;
-}
-
 
 .main {
     display: flex;
@@ -372,9 +382,46 @@ footer {
         padding: 20px;
     }
 
-    /* MY WORK PAGE */
+    /* SERVICES PAGE */
 
+    .services {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
 
+        padding: 15px;
+    }
+
+    .service {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgb(209, 209, 209);
+        border-radius: 15px;
+
+        padding: 15px;
+    }
+
+    .service img {
+        padding-bottom: 10px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .service a {
+        text-decoration: underline;
+    }
+
+    .service span {
+        color: #63E6BE;
+    }
+    
+        #unavaible {
+            color: #63c1e6;
+        }
+    
 
 /* MOBILE LAYOUT */
 
@@ -399,12 +446,16 @@ footer {
         margin: 0px;
     }
 
-    section.page-about {
+    section.page-about,
+    section.page-services {
         display: flex;
         flex-direction: column;
        
         flex-wrap: wrap;
     }
+
+
+
 
 
 
