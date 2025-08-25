@@ -17,11 +17,17 @@
 :root {
     --lightpink: #f9a3ce;
     --lightestpink: #ffcde6;
-    --hotpink: #ff69b4;
+ 
     --lightgrey: #d1d1d1;
     --lightestgray: #f7f7f7;
     --unavailable: #63c1e6;
     --available: #63E6BE;
+
+    --hotpink: #ff69b4;
+    --orchid: #d771d5;
+    --pinklavender: #C681DE;
+    --lavender: #AF79F5;
+    --amethyst: #aa69ff;
 }
 
 
