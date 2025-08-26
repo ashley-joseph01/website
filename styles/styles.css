@@ -39,9 +39,9 @@ a:hover {
     
 }
 
-nav a:hover {
-    /* letter-spacing: 1.5px; */
-}
+/* nav a:hover {
+    letter-spacing: 1.5px;
+} */
 
 #current {
     background-color: var(--lightestpink);
