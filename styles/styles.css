@@ -39,6 +39,11 @@ a:hover {
     
 }
 
+.contra-hire-me-button:hover {
+    background-color: none;
+    box-shadow: none;
+}
+
 /* nav a:hover {
     letter-spacing: 1.5px;
 } */
