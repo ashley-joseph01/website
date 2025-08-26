@@ -73,6 +73,28 @@ nav a:hover {
     font-size: 20px;
 }
 
+.subtitle {
+        font-size: 20px;
+
+}
+
+.contact-top h1, .services-header h1, .work-top h1 {
+    width: 100%;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    /* color: var(--hotpink); */
+
+    border: 2px solid var(--lightgrey);
+    background-color: var(--lightestgray);
+    /* border-radius: 15px; */
+}
+
+.services-header, .work-top {
+    margin: 15px;
+    margin-bottom: 0px;
+}
+
 
 
 
@@ -84,6 +106,8 @@ nav a:hover {
    margin: 0px;
    color: black;
 
+
+
   font-family: 'departure-mono', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -94,6 +118,8 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    
+
 }
 
 img.emoji {
@@ -435,10 +461,16 @@ footer {
 
     .my-work {
         display: flex;
+        flex-direction: column;
+    }
+
+    .work-bottom {
+        display: flex;
         /* gap: 15px; */
 
         padding: 15px;
         margin: 15px;
+        margin-top: 0px;
     }
 
     .project-card {
@@ -503,6 +535,94 @@ footer {
             color: var(--unavailable);
         }
     
+
+/* @ CONTACT PAGE */
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+
+    /* border: 2px solid var(--lightgrey); */
+
+
+}
+
+.contact-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+
+    border: 2px solid var(--lightgrey);
+    /* border-radius: 15px; */
+
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 15px;
+    margin: 15px;
+
+    border: 2px solid var(--lightgrey);
+    border-radius: 15px;
+
+
+}
+
+.contact-item {
+    padding: 10px;
+    margin: 5px;
+
+    border: 2px solid var(--lightpink);
+    border-radius: 15px;
+    background-color: var(--lightestpink);
+
+
+}
+
+.contact-item h1 {
+    padding-bottom: 5px;
+}
+
+.contact-item p {
+    padding-bottom: 5px;
+}
+
+.contact-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    padding: 15px;
+    margin: 15px;
+
+
+    border: 2px solid var(--lightgrey);
+    border-radius: 15px;
+
+
+}
+
+
+
+
 
 /* @ MOBILE LAYOUT */
 
