@@ -199,7 +199,7 @@ footer {
     margin-top: auto;
     margin-left: 15px;
     margin-right: 15px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -296,6 +296,18 @@ footer {
             justify-content: flex-end;
         }
 
+
+    .gap {
+        display: block;
+        height: 15px;
+        width: 100%;
+
+    }
+
+    .gap p {
+        color: white;
+    }
+
 /* @ TOOLTIPS */
 /* CODE VIA: https://www.w3schools.com/css/css_tooltip.asp */
 
@@ -359,8 +371,13 @@ footer {
 
   } 
     .pfp img{
-        padding-top: 15px;
         border-radius: 50%;
+        width: 380px;
+    }
+
+    .pfp {
+        padding-top: 15px;
+
     }
 
     .name {
@@ -625,6 +642,13 @@ footer {
 
 }
 
+iframe {
+    width: 640px;
+    height: 1336px;
+    margin: 0px;
+
+}
+
 
 
 
@@ -633,32 +657,223 @@ footer {
 
 @media(max-width: 768px){ 
 
-    body {
-        width: 100vh;
-        height: auto;
-        padding: 0px;
-        margin: 0px;
-    }
+    /* @ MOBILE HOME & GENERALS*/
 
-    header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        font-size: 10px;
+  body {
+    max-width: 100dvw;
+    overflow-x: hidden;
+  }
 
-        padding: 0px;
-        margin: 0px;
-    }
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
-    section.page-about,
-    section.page-services {
-        display: flex;
-        flex-direction: column;
-       
-        flex-wrap: wrap;
-    }
+ 
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+
+    /* border: 2px solid red; */
+
+  }
+
+
+  nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+    /* border: 2px solid blue; */
+
+  }
+
+  nav li {
+    width: 100%;
+  }
+
+  nav li a {
+    display: block;
+  }
+
+  .HERO {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .header-right {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+
+    /* border: 2px solid green; */
+  }
+
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .footer-left, .footer-right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .footer-nav ul{
+
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 5px;
+
+    list-style: none;
+  }
+
+    /* @  ABOUT ME MOBILE */
+
+section, .left, .right, .pinned, .pinned-inner, .github-heatmap, 
+.main, .work-top, .work-bottom,
+.page-services, .services, .service, 
+.contact-main, .contact-top, .contact-bottom, .contact-left, .contact-right {
+    display: flex;
+    flex-direction: column;
+
+}
+
+section {
+    width: 100dvh;
+    overflow-x: hidden;
+}
+
+.pfp img{
+    width: 150px;
+
+}
+
+.page-about {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.pinned, .pinned-inner, .right, 
+.main, .work-top, .my-work, .work-bottom,
+.page-services, .services, .service,
+.contact-main, .contact-top, .contact-bottom, .contact-left, .contact-right {
+    max-width: 100%;
+}
+
+.project-card {
+    width: 100%;
+    /* padding: px; */
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+}
+
+.work-bottom {
+    padding: 0px;
+    margin-top: 15px;
+}
+
+
+.work-top, .work-bottom {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.pin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.pin img{
+    height: 100px;
+}
+
+ .project-card img {
+    height: 140px;
+    width: 100%;
+ }
+
+.services-header {
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.services {
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.contact-top, .contact-bottom {
+    padding: 0px;
+    margin: 0px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact-item p {
+    word-wrap: break-word;
+}
+
+.contra-hire-me-button > a > img {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+
+}
+
+.contact-right {
+    padding: 0px;
+    margin: 0px;
+
+    border: none;
+}
+
+.contact-bottom {
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
