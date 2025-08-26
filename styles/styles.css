@@ -34,7 +34,7 @@
 
 /* @ ANIMATIONS & INDECATORS */
 
-a:hover {
+ :not(.contra-hire-me-button) > a:hover{
     background-color: var(--lightpink);
     
 }
