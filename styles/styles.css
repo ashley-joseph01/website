@@ -82,6 +82,15 @@
         font-size: 20px;
 
 }
+#subtext {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+
+    /* border: solid green 2px; */
+}
 
 .contact-top h1, .services-header h1, .work-top h1 {
     width: 100%;
