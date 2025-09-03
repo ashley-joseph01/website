@@ -65,31 +65,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 100px;
+    font-size: 150px;
 
     height: 100%;
 
     font-family: "Jacquard 12 Charted", system-ui;
     font-weight: 400;
     font-style: normal;
+
 }
 
 #subtitle {
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .subtitle {
-        font-size: 20px;
+    font-size: 30px;
 
 }
-#subtext {
-    width: 65%;
+.subtext {
+    width: 50%;
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    align-items: center;
+
     text-align: center;
 
     /* border: solid green 2px; */
+}
+
+.subtext p {
+        text-align: center;
+
 }
 
 .contact-top h1, .services-header h1, .work-top h1 {
@@ -125,6 +132,8 @@
   font-family: 'departure-mono', sans-serif;
   font-weight: 400;
   font-style: normal;
+
+  text-decoration: none;
     
 }
 
@@ -188,7 +197,7 @@ header {
     }
 
 .HERO {
-    margin-top: 200px;
+    margin-top: 50px;
 
     display: flex;
     flex-direction: column;
@@ -200,6 +209,42 @@ header {
     /* border: solid 2px red; */
 
 }
+
+.HEROgap {
+    margin: 10px;
+}
+
+    .call-to-action {
+        margin: 100px;
+        display: flex;
+        gap: 50px;
+
+  
+     
+    }
+
+    .email-action, .form-action, .work-action {
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 20px;
+
+        border: solid var(--lightgrey) 2px;
+        /* border-radius: 15px; */
+        background-color: var(--lightestgray);
+
+
+
+    }
+
+    .email-action:hover, .form-action:hover, .work-action:hover {
+        background-color: var(--lightestpink);
+        border-color: var(--lightpink)
+    }
+
 
 
 
@@ -316,6 +361,8 @@ footer {
     .gap p {
         color: white;
     }
+
+
 
 /* @ TOOLTIPS */
 /* CODE VIA: https://www.w3schools.com/css/css_tooltip.asp */
